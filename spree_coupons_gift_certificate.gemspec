@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "spree_coupons_gift_certificate/version"
+require "spree_coupons_gift_certificates/version"
 
 Gem::Specification.new do |s|
-  s.name        = "spree_coupons_gift_certificate"
+  s.name        = "spree_coupons_gift_certificates"
   s.version     = SpreeCouponsGiftCertificate::VERSION
   s.authors     = ["Stephane Paul"]
-  s.email       = ["stephane.paul@gmail.com"]
-  s.homepage    = ""
+  s.email       = ["stephane@godynamo.com"]
+  s.homepage    = "http://godynamo.com"
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{TODO: Write a gem description}
 
-  s.rubyforge_project = "spree_coupons_gift_certificate"
+  s.rubyforge_project = "spree_coupons_gift_certificates"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
